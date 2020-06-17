@@ -137,7 +137,7 @@ footer {
 
 @media screen and (max-width: 577px) {
   main {
-    padding: 4rem 0;
+    padding: 4rem 0.5rem;
   }
 
   .logo-headers {
@@ -165,7 +165,7 @@ footer {
   .kevin-img {
     padding-right: 0;
     padding-bottom: 2rem;
-    width: 20rem;
+    width: 25rem;
   }
 
   .projects-container {
