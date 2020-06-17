@@ -87,16 +87,16 @@ p {
 
 .projects-container {
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 
 .project-section {
-  width: 33%;
-  padding: 0 1rem;
+  width: 50%;
+  padding: 0 2rem 4rem;
 }
 
 .project-title {
@@ -120,7 +120,7 @@ p {
 
 .project-link {
   color: #F9F8F9;
-  background-color: #98A6B5;
+  background-color: #29486B;
   padding: 0.5rem 1rem;
   border-radius: 5px;
 }
@@ -170,7 +170,6 @@ footer {
 
   .project-section {
     width: 100%;
-    padding: 1rem 0;
   }
 }
 
