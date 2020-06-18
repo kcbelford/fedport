@@ -121,6 +121,16 @@ main {
   border-radius: 5px;
 }
 
+.project-link:hover {
+  color: #F9F8F9;
+  background-color: #8469A2;
+  text-decoration: none;
+}
+
+.project-link:visited {
+  color: #F9F8F9;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -136,6 +146,14 @@ footer {
   color: #F9F8F9;
   font-size: 3rem;
   padding: 0 2rem;
+}
+
+.footer-icon:hover {
+  color: #8469A2;
+}
+
+.footer-icon:visited {
+  color: #F9F8F9;
 }
 
 .footer-p {
