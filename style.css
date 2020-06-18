@@ -47,7 +47,7 @@ header {
   color: #29486B;
 }
 
-.fas {
+.fa-chevron-down {
   position: relative;
   top: 12rem;
   color: #F9F8F9;
@@ -79,10 +79,6 @@ main {
 .kevin-img {
   width: 25rem;
   padding-right: 2rem;
-}
-
-p {
-  margin: 0;
 }
 
 .projects-container {
@@ -127,12 +123,28 @@ p {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #29486B;
   color: #F9F8F9;
   width: 100%;
   height: 100vh;
+}
+
+.footer-icon {
+  color: #F9F8F9;
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+.footer-p {
+  padding-top: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.footer-p-mobile {
+  display: none;
 }
 
 @media screen and (max-width: 577px) {
@@ -158,7 +170,7 @@ footer {
     padding-left: 0;
   }
 
-  .fas {
+  .fa-chevron-down {
     top: 8rem;
   }
 
@@ -178,6 +190,19 @@ footer {
 
   .project-section {
     width: 100%;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  .footer-p {
+    display: none;
+  }
+
+  .footer-p-mobile {
+    display: inline;
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 1.5px;
   }
 }
 
