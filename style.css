@@ -158,6 +158,10 @@ footer {
     padding-left: 0;
   }
 
+  .fas {
+    top: 8rem;
+  }
+
   .about-content {
     flex-direction: column;
   }
