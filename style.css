@@ -112,6 +112,11 @@ main {
   padding-bottom: 2rem;
 }
 
+.technologies {
+  padding-bottom: 2rem;
+  font-weight: lighter;
+}
+
 .project-link {
   color: #F9F8F9;
   background-color: #29486B;
